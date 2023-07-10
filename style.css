@@ -32,6 +32,10 @@ body {
     font-weight: 800;
 }
 
+.banner-title span {
+    color: #E55473;
+}
+
 .banner-description {
     width: 634px;
     color: rgba(39, 39, 39, 0.60);
