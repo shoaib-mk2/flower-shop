@@ -126,3 +126,26 @@ body {
     text-decoration-line: underline;
     padding-top: 32px;
 }
+
+/* delivery, flower & support section */
+#delivery-flower-support {
+    padding-bottom: 128px;
+}
+
+.delivery-flower-support-container {
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 86px;
+    padding-bottom: 87px;
+}
+
+.delivery-flower-support-container p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 24px;
+}
