@@ -19,6 +19,7 @@ body {
 
 .banner-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .banner-info {
@@ -268,6 +269,64 @@ body {
     color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-weight: 400;
+}
+
+/* review section */
+#review {
+    background: rgba(229, 84, 115, 0.05);
+    margin-bottom: 128px;
+    padding: 50px 0;
+}
+
+.review-title {
+    text-align: center;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 24px;
+}
+
+.review-title span {
+    color: #E55473;
+}
+
+.review-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.review-info {
+    box-shadow: 4px 4px 15px gray;
+    padding: 20px;
+}
+
+.stars img {
+    width: 30px;
+}
+
+.comment {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 300px;
+    padding: 24px 0;
+}
+
+.author-img {
+    width: 75px;
+    height: auto;
+    border-radius: 35px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.author-info p {
+    color: #272727;
 }
 
 /* footer section */
